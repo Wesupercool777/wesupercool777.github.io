@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+body {
+    font-family: Roboto, serif;
+    background: linear-gradient(191deg, #b31489 0%, #14b3b0 100%);
+    ;
+}
+
+.nav-link {
+    color: rgb(234, 117, 230);
+}
+
+.navbar-nav .nav-link.active {
+    color:rgb(243, 96, 56);
+}
+
+.navbar-brand img {
+    width: 40px;
+}
+
+.navbar-toggler {
+    background: linear-gradient(160deg, #00b3ff 6%, #00b3ff 12%, #d300fd 76%);
+    box-shadow: 5px 5px 10px 1px #efeaea;
+    border-color: #f3efef;
+}
+
+.sidebar {
+    color: #000;
+    background: linear-gradient(154deg, #00a2ff 0%, #ef0aa7 72%);
+    box-shadow: 10px 12px 19px 4px #f0f0e4;
+
+}
+
+.card {
+    background: linear-gradient(160deg, #00b3ff 42%, #8000ff 74%, #ff00f7 99%);
+    box-shadow: 5px 5px 10px 1px #000000;
+    border-color: #000000;
+}
+
+
+
+.btn {
+    background: linear-gradient(160deg, #00b3ff 6%, #00b3ff 12%, #d300fd 76%);
+    box-shadow: 5px 5px 10px 1px #efeaea;
+    border-color: #f3efef;
+}
+
+.slide-text {
+    background: linear-gradient(160deg, #00b3ff 42%, #8000ff 74%, #ff00f7 99%);
+}
+
+.footer-text {
+    margin: auto;
+
+}
+
+footer {
+    background: linear-gradient(154deg, #00a2ff 0%, #ef0aa7 72%);
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.eee {
+    animation: myAnimm 5s ease 0s 1000 normal forwards;
+}
+
+@keyframes myAnimm {
+    0% {
+        animation-timing-function: ease-out;
+        transform: scale(1);
+        transform-origin: center center;
+    }
+
+    10% {
+        animation-timing-function: ease-in;
+        transform: scale(0.91);
+    }
+
+    17% {
+        animation-timing-function: ease-out;
+        transform: scale(0.98);
+    }
+
+    33% {
+        animation-timing-function: ease-in;
+        transform: scale(0.87);
+    }
+
+    45% {
+        animation-timing-function: ease-out;
+        transform: scale(1);
+    }
+}
+
+.btn-success {
+    color: #f6f6f6;
+}
+
+.btn-outline-primary {
+    color: #f6f6f6;
+}
